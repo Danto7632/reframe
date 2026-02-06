@@ -34,16 +34,15 @@ export default function ApplicationModal({ isOpen, onClose, editData }: Props) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSaving(true);
-    const data = {
+    const data: Record<string, unknown> = {
       company,
       position,
       appliedAt,
       currentStageId: stageId,
-      resumeType: resumeType || null,
-      resumeValue: resumeValue || null,
-      memo: memo || null,
-      mood: mood || null,
     };
+    if (resumeType) data.resumeType = resumeType;
+    if (resumeValue) data.resumeValue = resumeValue;
+    if (memo) data.memo = memo;
 
     try {
       if (isEdit && editData) {

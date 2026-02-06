@@ -102,7 +102,6 @@ export default function ThoughtRecordNew() {
       userReframe: userReframe || null,
       emotionsAfter: emotionsAfter.length > 0 ? emotionsAfter : null,
       isCompleted: false,
-      updatedAt: new Date().toISOString(),
       ...overrides,
     };
 
