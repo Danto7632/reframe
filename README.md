@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://reframe.kro.kr">🌐 Live Demo</a>
+  <a href="https://reframe.kro.kr">🌐 Live Demo</a> · 
+  <a href="https://www.youtube.com/watch?v=lD3KxrVsYJY">🎬 시연 영상</a>
 </p>
 
 ---
