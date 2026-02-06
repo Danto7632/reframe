@@ -215,7 +215,7 @@ API 키는 브라우저 LocalStorage에 저장되며, 서버로 전송되지 않
 
 `main` 브랜치에 push하면 GitHub Actions가 자동으로 프론트엔드를 빌드하여 GitHub Pages에 배포합니다.
 
-- **배포 URL**: https://frame.kro.kr
+- **배포 URL**: https://reframe.kro.kr
 - **워크플로우**: `.github/workflows/deploy.yml`
 
 > GitHub 저장소 Settings → Pages에서 Source를 **GitHub Actions**으로 설정해야 합니다.
